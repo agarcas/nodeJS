@@ -14,4 +14,4 @@ socket.on("error", function(){
     console.log("SIN servidor conectado en puerto " + port + " de " + host);
 });
 
-// socket.connect(port, host);
+socket.connect(port, host);
